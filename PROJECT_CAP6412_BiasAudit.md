@@ -1,9 +1,9 @@
 # CAP6412 Term Project
 # Bias & Safety Auditor for Text-to-Image Generative Models
 
-> **Course:** CAP6412 – Advanced Computer Vision, Spring 2025  
-> **Instructor:** Dr. Mubarak Shah, UCF CRCV  
-> **Playlist:** https://www.youtube.com/playlist?list=PLd3hlSJsX_Ik9QKa4QF6dq0Sbyqy3FKNH  
+> **Course:** Advance Generative Model  
+> **Student:** Waqar Rauf Butt &nbsp;|&nbsp; **Roll No:** PHDAIF25M003  
+> **Supervisor:** Dr. Muhammad Farooq  
 > **Project Type:** End-to-End Research & Engineering Deliverable  
 > **Estimated Duration:** 6–8 weeks  
 

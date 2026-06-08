@@ -189,8 +189,23 @@ class ReportGenerator:
         # ── Cover ──────────────────────────────────────────────────────────────
         story.append(Paragraph("Bias & Safety Audit Report", H1))
         story.append(Paragraph("Text-to-Image Model: Stable Diffusion v1.5", NORMAL))
-        story.append(Paragraph("Project: CAP6412 — Advanced Computer Vision, UCF CRCV", NORMAL))
-        story.append(Spacer(1, 0.2 * inch))
+        story.append(Spacer(1, 0.1 * inch))
+        meta_rows = [
+            ["Course",     "Advance Generative Model"],
+            ["Student",    "Waqar Rauf Butt"],
+            ["Roll No",    "PHDAIF25M003"],
+            ["Supervisor", "Dr. Muhammad Farooq"],
+        ]
+        from reportlab.platypus import Table as RLTable, TableStyle as RLTableStyle
+        meta_t = RLTable(meta_rows, colWidths=[1.4*inch, 5*inch])
+        meta_t.setStyle(RLTableStyle([
+            ("FONTNAME",  (0,0), (0,-1), "Helvetica-Bold"),
+            ("FONTSIZE",  (0,0), (-1,-1), 10),
+            ("TEXTCOLOR", (0,0), (0,-1), colors.HexColor("#1E2761")),
+            ("BOTTOMPADDING", (0,0), (-1,-1), 4),
+        ]))
+        story.append(meta_t)
+        story.append(Spacer(1, 0.15 * inch))
         story.append(HRFlowable(width="100%", thickness=1, color=colors.grey))
         story.append(Spacer(1, 0.15 * inch))
 

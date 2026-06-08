@@ -1,7 +1,8 @@
 # Bias & Safety Auditing Pipeline for Text-to-Image Generative Models
 
-**CAP6412 – Advanced Computer Vision | Spring 2025 | UCF CRCV**  
-**Instructor:** Dr. Mubarak Shah  
+**Course:** Advance Generative Model  
+**Student:** Waqar Rauf Butt &nbsp;|&nbsp; **Roll No:** PHDAIF25M003  
+**Supervisor:** Dr. Muhammad Farooq  
 
 ---
 

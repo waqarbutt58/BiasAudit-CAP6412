@@ -158,25 +158,31 @@ def slide1_title(prs):
     # Title
     add_text(slide,
              "Bias & Safety Auditor for\nText-to-Image Generative Models",
-             0.5, 1.0, 8.8, 2.0,
+             0.5, 0.85, 8.8, 2.0,
              font_size=34, bold=True, color=WHITE,
              align=PP_ALIGN.LEFT, font_name="Calibri")
 
-    # Subtitle
+    # Student info block
     add_text(slide,
-             "CAP6412 – Advanced Computer Vision  |  Spring 2025",
-             0.5, 3.1, 8.8, 0.5,
-             font_size=16, color=ICE, font_name="Calibri")
+             "Advance Generative Model",
+             0.5, 2.95, 8.8, 0.42,
+             font_size=15, color=GOLD, bold=True, font_name="Calibri")
 
-    add_text(slide,
-             "UCF CRCV  |  Dr. Mubarak Shah",
-             0.5, 3.6, 8.8, 0.4,
-             font_size=14, color=ICE, font_name="Calibri")
+    info_lines = [
+        ("Student :", "Waqar Rauf Butt"),
+        ("Roll No :", "PHDAIF25M003"),
+        ("Supervisor :", "Dr. Muhammad Farooq"),
+    ]
+    for i, (label, value) in enumerate(info_lines):
+        add_text(slide, label, 0.5, 3.42 + i * 0.33, 1.4, 0.32,
+                 font_size=12, color=ICE, bold=True, font_name="Calibri")
+        add_text(slide, value, 1.95, 3.42 + i * 0.33, 6.0, 0.32,
+                 font_size=12, color=WHITE, font_name="Calibri")
 
     # GitHub link
     add_text(slide,
              "github.com/waqarbutt58/BiasAudit-CAP6412",
-             0.5, 5.0, 9.0, 0.4,
+             0.5, 5.18, 9.0, 0.3,
              font_size=11, color=ICE, font_name="Calibri")
 
 
@@ -671,9 +677,9 @@ def slide15_conclusion(prs):
 
     add_rect(slide, 0.5, 5.0, 9.0, 0.42, MID_BLUE)
     add_text(slide,
-             "github.com/waqarbutt58/BiasAudit-CAP6412   |   CAP6412 Spring 2025   |   UCF CRCV",
+             "github.com/waqarbutt58/BiasAudit-CAP6412   |   Advance Generative Model   |   Waqar Rauf Butt  |  PHDAIF25M003",
              0.52, 5.04, 8.96, 0.35,
-             font_size=11, color=WHITE, align=PP_ALIGN.CENTER)
+             font_size=10, color=WHITE, align=PP_ALIGN.CENTER)
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
