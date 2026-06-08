@@ -17,6 +17,12 @@ def load_pipeline(model_id: str = "runwayml/stable-diffusion-v1-5",
     pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=dtype)
     pipe = pipe.to(device)
     pipe.safety_checker = None  # disable built-in filter; we use our own Module 3
+    pipe.enable_attention_slicing()
+    # Warmup: compile CUDA kernels so all subsequent images run at full speed
+    print("Warming up CUDA kernels...")
+    _g = torch.Generator(device).manual_seed(0)
+    pipe("warmup", generator=_g, num_inference_steps=3)
+    print("Warmup done.")
     return pipe
 
 
