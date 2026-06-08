@@ -26,8 +26,8 @@ images/
 # Model weights (large — upload separately to HuggingFace Hub)
 models/
 
-# Results (generated at runtime — keep CSVs, exclude large PDFs if needed)
-# results/audit_report.pdf
+# Results — track demo CSVs and report; exclude chart PNGs (regenerated at runtime)
+results/charts/
 
 # OS
 .DS_Store

@@ -340,15 +340,15 @@ class ReportGenerator:
         story.append(PageBreak())
         story.append(Paragraph("6. References", H2))
         refs = [
-            "Rombach et al., "High-Resolution Image Synthesis with Latent Diffusion Models," CVPR 2022.",
-            "Radford et al., "Learning Transferable Visual Models From Natural Language Supervision," ICML 2021.",
-            "Chinchure et al., "OpenBias: Open-set Bias Detection in Text-to-Image Generative Models," CVPR 2024.",
+            'Rombach et al., "High-Resolution Image Synthesis with Latent Diffusion Models," CVPR 2022.',
+            'Radford et al., "Learning Transferable Visual Models From Natural Language Supervision," ICML 2021.',
+            'Chinchure et al., "OpenBias: Open-set Bias Detection in Text-to-Image Generative Models," CVPR 2024.',
             "SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image Generation, 2024.",
             "Forget-Me-Not: Learning to Forget in Text-to-Image Diffusion Models, CVPR Workshop 2024.",
             "SocialCounterfactuals, CVPR 2024.",
-            "Poppi et al., "Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models," ECCV 2024.",
-            "Liu et al., "Visual Instruction Tuning (LLaVA)," NeurIPS 2023.",
-            "Zhang et al., "Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet)," ICCV 2023.",
+            'Poppi et al., "Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models," ECCV 2024.',
+            'Liu et al., "Visual Instruction Tuning (LLaVA)," NeurIPS 2023.',
+            'Zhang et al., "Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet)," ICCV 2023.',
         ]
         for i, ref in enumerate(refs, 1):
             story.append(Paragraph(f"[{i}] {ref}", NORMAL))
