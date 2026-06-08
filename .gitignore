@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+cap6412_env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Generated images (large — tracked via DVC or stored separately)
+images/
+
+# Model weights (large — upload separately to HuggingFace Hub)
+models/
+
+# Results (generated at runtime — keep CSVs, exclude large PDFs if needed)
+# results/audit_report.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.key
