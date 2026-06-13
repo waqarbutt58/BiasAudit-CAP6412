@@ -1,125 +1,132 @@
 {
   "occupation": {
     "gender": {
+      "attribute": "gender",
       "distribution": {
-        "man": 0.62,
-        "woman": 0.36666666666666664,
-        "person of ambiguous gender": 0.013333333333333334
+        "person of ambiguous gender": 0.44333333333333336,
+        "man": 0.39,
+        "woman": 0.16666666666666666
       },
-      "bias_score": 0.2867,
-      "dominant_group": "man",
-      "dominant_proportion": 0.62,
-      "shannon_entropy": 0.7218,
-      "normalised_entropy": 0.657
+      "bias_score": 0.11,
+      "dominant_group": "person of ambiguous gender",
+      "dominant_proportion": 0.4433,
+      "shannon_entropy": 1.0265,
+      "normalised_entropy": 0.9343
     },
     "age": {
+      "attribute": "age",
       "distribution": {
-        "middle-aged person": 0.5566666666666666,
-        "young adult": 0.33,
-        "elderly person": 0.09,
-        "child": 0.023333333333333334
+        "middle-aged person": 0.5933333333333334,
+        "young adult": 0.3433333333333333,
+        "elderly person": 0.05333333333333334,
+        "child": 0.01
       },
-      "bias_score": 0.3067,
+      "bias_score": 0.3433,
       "dominant_group": "middle-aged person",
-      "dominant_proportion": 0.5567,
-      "shannon_entropy": 0.9963,
-      "normalised_entropy": 0.7187
+      "dominant_proportion": 0.5933,
+      "shannon_entropy": 0.8791,
+      "normalised_entropy": 0.6342
     },
     "race": {
+      "attribute": "race",
       "distribution": {
-        "white person": 0.6466666666666666,
-        "asian person": 0.12666666666666668,
-        "black person": 0.09,
-        "hispanic person": 0.08333333333333333,
-        "person of another ethnicity": 0.05333333333333334
+        "hispanic person": 0.6,
+        "white person": 0.18666666666666668,
+        "asian person": 0.1,
+        "black person": 0.09666666666666666,
+        "person of another ethnicity": 0.016666666666666666
       },
-      "bias_score": 0.4467,
-      "dominant_group": "white person",
-      "dominant_proportion": 0.6467,
-      "shannon_entropy": 1.1237,
-      "normalised_entropy": 0.6982
+      "bias_score": 0.4,
+      "dominant_group": "hispanic person",
+      "dominant_proportion": 0.6,
+      "shannon_entropy": 1.1442,
+      "normalised_entropy": 0.7109
     }
   },
   "activity": {
     "gender": {
+      "attribute": "gender",
       "distribution": {
-        "woman": 0.51,
-        "man": 0.455,
-        "person of ambiguous gender": 0.035
+        "person of ambiguous gender": 0.485,
+        "man": 0.31,
+        "woman": 0.205
       },
-      "bias_score": 0.1767,
-      "dominant_group": "woman",
-      "dominant_proportion": 0.51,
-      "shannon_entropy": 0.819,
-      "normalised_entropy": 0.7455
+      "bias_score": 0.1517,
+      "dominant_group": "person of ambiguous gender",
+      "dominant_proportion": 0.485,
+      "shannon_entropy": 1.0389,
+      "normalised_entropy": 0.9456
     },
     "age": {
+      "attribute": "age",
       "distribution": {
-        "young adult": 0.635,
-        "middle-aged person": 0.28,
-        "elderly person": 0.06,
-        "child": 0.025
+        "young adult": 0.57,
+        "middle-aged person": 0.35,
+        "elderly person": 0.045,
+        "child": 0.035
       },
-      "bias_score": 0.385,
+      "bias_score": 0.32,
       "dominant_group": "young adult",
-      "dominant_proportion": 0.635,
-      "shannon_entropy": 0.9058,
-      "normalised_entropy": 0.6534
+      "dominant_proportion": 0.57,
+      "shannon_entropy": 0.9447,
+      "normalised_entropy": 0.6815
     },
     "race": {
+      "attribute": "race",
       "distribution": {
-        "white person": 0.685,
-        "asian person": 0.155,
-        "black person": 0.105,
-        "person of another ethnicity": 0.04,
-        "hispanic person": 0.015
+        "hispanic person": 0.305,
+        "asian person": 0.295,
+        "white person": 0.22,
+        "black person": 0.18
       },
-      "bias_score": 0.485,
-      "dominant_group": "white person",
-      "dominant_proportion": 0.685,
-      "shannon_entropy": 0.9765,
-      "normalised_entropy": 0.6068
+      "bias_score": 0.105,
+      "dominant_group": "hispanic person",
+      "dominant_proportion": 0.305,
+      "shannon_entropy": 1.3641,
+      "normalised_entropy": 0.8475
     }
   },
   "neutral": {
     "gender": {
+      "attribute": "gender",
       "distribution": {
-        "woman": 0.52,
-        "man": 0.46,
-        "person of ambiguous gender": 0.02
+        "person of ambiguous gender": 0.44,
+        "woman": 0.34,
+        "man": 0.22
       },
-      "bias_score": 0.1867,
-      "dominant_group": "woman",
-      "dominant_proportion": 0.52,
-      "shannon_entropy": 0.7755,
-      "normalised_entropy": 0.7059
+      "bias_score": 0.1067,
+      "dominant_group": "person of ambiguous gender",
+      "dominant_proportion": 0.44,
+      "shannon_entropy": 1.0611,
+      "normalised_entropy": 0.9659
     },
     "age": {
+      "attribute": "age",
       "distribution": {
-        "middle-aged person": 0.36,
-        "young adult": 0.33,
-        "elderly person": 0.22,
-        "child": 0.09
+        "young adult": 0.61,
+        "elderly person": 0.16,
+        "child": 0.12,
+        "middle-aged person": 0.11
       },
-      "bias_score": 0.11,
-      "dominant_group": "middle-aged person",
-      "dominant_proportion": 0.36,
-      "shannon_entropy": 1.2835,
-      "normalised_entropy": 0.9258
+      "bias_score": 0.36,
+      "dominant_group": "young adult",
+      "dominant_proportion": 0.61,
+      "shannon_entropy": 1.092,
+      "normalised_entropy": 0.7877
     },
     "race": {
+      "attribute": "race",
       "distribution": {
-        "white person": 0.74,
-        "black person": 0.1,
-        "asian person": 0.08,
-        "hispanic person": 0.05,
-        "person of another ethnicity": 0.03
+        "white person": 0.36,
+        "black person": 0.24,
+        "asian person": 0.22,
+        "hispanic person": 0.18
       },
-      "bias_score": 0.54,
+      "bias_score": 0.16,
       "dominant_group": "white person",
-      "dominant_proportion": 0.74,
-      "shannon_entropy": 0.9101,
-      "normalised_entropy": 0.5655
+      "dominant_proportion": 0.36,
+      "shannon_entropy": 1.3521,
+      "normalised_entropy": 0.8401
     }
   }
 }
